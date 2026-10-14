@@ -1,0 +1,11 @@
+.DS_Store
+*.env
+*.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*$py.class
+node_modules/
+dist/
+.idea/
+.vscode/
