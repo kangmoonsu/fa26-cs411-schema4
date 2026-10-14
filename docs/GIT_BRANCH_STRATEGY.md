@@ -108,8 +108,8 @@ git push -u origin feat/hakeem/portfolio-crud-sql
   - Implemented parameterized native SQL queries for portfolio CRUD
   - Added FastAPI router at `/api/portfolios`
 
-  ### Related Spec:
-  - `docs/PORTFOLIO.md` & `docs/DATABASE_SCHEMA.md`
+  ### Related Feature:
+  - Portfolio CRUD & Database Integration (Role: Database Backend)
 
   ### Testing Done:
   - Tested locally with GCP MySQL; returned status 200 and expected JSON payload.
@@ -131,7 +131,7 @@ Because 4 members are working across `backend/` and `frontend/`, follow these bo
    - In frontend, create dedicated folders under `src/pages/` and `src/components/` rather than editing `App.tsx` simultaneously.
 
 2. **API Contract First:**
-   - Frontend developers (John, Moonsu) and Backend developers (Hakeem, Minsuk) should agree on request/response JSON schemas (as defined in `docs/FEATURE_SPEC.md` and feature docs) before writing client/server code.
+   - Frontend developers (John, Moonsu) and Backend developers (Hakeem, Minsuk) should agree on request/response JSON schemas (as defined in their role specifications) before writing client/server code.
    - Use TypeScript interfaces matching the backend Pydantic models.
 
 3. **Never Commit Secrets:**
